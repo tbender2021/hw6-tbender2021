@@ -1,0 +1,27 @@
+
+/* PetData.css */
+
+.pet-data-container {
+    height: 900px; /* Adjust this value according to your needs */
+    overflow-y: auto;
+  }
+  
+  .pet-card {
+    display: flex;
+    align-items: left;
+    background:#C4EEFA !important;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    color:black;
+  }
+  
+  .pet-card img {
+    margin-right: 1rem;
+  }
+  img {
+    width: 100px;  /* Or whatever size you want */
+    height: 100px;
+    object-fit: cover;  /* This will ensure the aspect ratio of the image is maintained */
+  }

@@ -1,0 +1,174 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-container div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#total-dogs,
+#top-breeds,
+#age-groups {
+  background: #C4EEFA;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px#c5c1d9;
+  margin-bottom: 1rem;
+  margin-right:5rem;
+  font-size: 30px;
+  color: #074580;
+}
+
+.pets-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.pet-card {
+  flex: 0 0 auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #c5c1d9;
+}
+
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  height:915px;
+  width: 500px;
+}
+
+.info-container div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ecedea;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width:100%;
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-container div {
+  margin: 0 1rem; /* Adjust this value to increase or decrease the space between the inputs */
+}
+.parent-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem; /* Adjust this value to increase or decrease the space below the header */
+}
+body {
+  font-family: 'Arial Black', sans-serif;
+  background-color: #F2F5FF; 
+}
+
+h1 {
+  font-family: Impact, 'Arial Black', sans-serif;
+  color: #339BFF;
+  margin-top:-30px;
+  margin-bottom:0px;
+  font-size:200px !important;
+}
+h2 {
+  font-family: 'Arial Black', sans-serif;
+  color: #545454;
+  size: 228px;
+}
+
+
+.search-bar {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  color:black;
+  background-color: white /* Lighter blue */
+}
+button {
+  background-color: #339BFF !important; /* Medium blue */
+  color: #fff; /* Dark blue */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0f7fa; /* Same as body background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #339BFF; /* Same as button background color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1F4393; /* Darker blue */
+}
+.SideNav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #C4EEFA;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 4.5;
+  font-size:40px;
+  color:#074580;
+}
