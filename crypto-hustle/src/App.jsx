@@ -126,7 +126,7 @@ function App({ searchInput }) {
       <div id="age-groups">Age Groups: {Object.entries(data.ageCounts).map(([ageGroup, count]) => `${ageGroup}: ${count}`).join(', ')}</div>
     </div>
   ) : <div className="info-container">
-    <div id="total-dogs">Total Dogs: {data.totalDogs} </div>
+    <div id="total-dogs">Total Dogs:  {data.totalDogs} </div>
     <div id="top-breeds">Top Breeds: {data.topBreeds.map(([breed, count]) => `${breed}: ${count}`).join(', ')}</div>
     <div id="age-groups">Age Groups: {Object.entries(data.ageCounts).map(([ageGroup, count]) => `${ageGroup}: ${count}`).join(', ')}</div>
   </div>}
